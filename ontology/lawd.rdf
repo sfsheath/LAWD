@@ -200,6 +200,13 @@
         <owl:equivalentClass rdf:resource="&geo;Feature"/>
     </owl:Class>
     
+     <!-- http://lawd.info/ontology/Place -->
+
+    <owl:Class rdf:about="http://lawd.info/ontology/ArchaeologicalContext">
+        <owl:equivalentClass rdf:resource="http://purl.org/crmeh#EHE0007_Context"/>
+        <rdfs:comment>The LAWD class ArchaeologicalContext is an indication that an rdf:Resource with this rdf:type can be used in archaeological discourse to assert and infer information about the circumstances of discovery, reliability and location of the resource itself and of entities that are associated with the context.</rdfs:comment>
+    </owl:Class>
+    
 
 
     <!-- http://lawd.info/ontology/Reading -->
